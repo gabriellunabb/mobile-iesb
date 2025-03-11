@@ -1,6 +1,5 @@
-import PadraoAndroid from "./screens/PadraoAndroid";
-import PadraoIOS from "./screens/PadraoIOS";
+import PerfilScreen from "./screens/PerfilScreen";
 
 export default function App() {
-  return <PadraoAndroid />;
+  return <PerfilScreen />;
 }
