@@ -1,7 +1,7 @@
 import GaleriaScreen from "./screens/GaleriaScreen";
-import ProfileScreen from "./screens/ProfileScreen";
+import ProdutoScreen from "./screens/ProdutoScreen";
 import RegistrarScreen from "./screens/RegistrarScreen";
 
 export default function App() {
-  return <ProfileScreen />;
+  return <ProdutoScreen />;
 }

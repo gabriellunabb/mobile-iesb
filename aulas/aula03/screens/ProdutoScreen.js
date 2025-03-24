@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
   },
 });
 
-export default function ProfileScreen() {
+export default function ProdutoScreen() {
   return (
     <View style={{ flex: 1 }}>
       <View style={styles.appBar}>
