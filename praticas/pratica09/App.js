@@ -1,16 +1,16 @@
 import { SafeAreaProvider } from "react-native-safe-area-context";
+import { StoreProvider } from "./contexts/StoreContext";
 import MainNavigator from "./routes/MainNavigator";
 import { NavigationContainer } from "@react-navigation/native";
-import { LojaProvider } from "./context/LojaContext";
 
 export default function App() {
   return (
     <SafeAreaProvider>
-      <LojaProvider>
+      <StoreProvider>
         <NavigationContainer>
           <MainNavigator></MainNavigator>
         </NavigationContainer>
-      </LojaProvider>
+      </StoreProvider>
     </SafeAreaProvider>
   );
 }
